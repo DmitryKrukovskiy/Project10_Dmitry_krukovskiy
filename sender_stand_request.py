@@ -31,12 +31,12 @@ def post_new_client_kit(kit_body, client_auth_token):
     return response
 
 
-auth_token = get_new_user_token()
+#  auth_token = get_new_user_token()
 
 
-kit_response = post_new_client_kit(data.kit_body, auth_token)
-print(kit_response.status_code)
-print(kit_response.text)
+#  kit_response = post_new_client_kit(data.kit_body, auth_token)
+#  print(kit_response.status_code)
+#  print(kit_response.text)
 
 
 #  def create_new_user(user_body):
