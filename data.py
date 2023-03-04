@@ -1,6 +1,5 @@
 headers = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer authToken"
+    "Content-Type": "application/json"
 }
 
 kit_body = {
